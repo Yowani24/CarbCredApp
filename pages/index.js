@@ -73,7 +73,7 @@ export default function Home() {
       </section>
 
       <section className={styles.button_box}>
-        <Link href="/cart">
+        <Link href="/cart" passHref>
           <button>Continue</button>
         </Link>
       </section>

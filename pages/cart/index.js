@@ -44,7 +44,7 @@ export default function Cart(props){
     return (
         <div>
             <header className={styles.header}>
-                <Link href="/">
+                <Link href="/" passHref>
                     <button>Back <span>Home</span></button>
                 </Link>
                 <h1>Cart</h1>
